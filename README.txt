@@ -1,2 +1,3 @@
 - Program vyžaduje Maven ke stažení dependencies.
 - Program bude fungovat správně jen když je Tomcat Connector nastaven s URIEncoding="UTF-8", nebo když request obsahuje informaci o použitém  kódování
+- CSV soubor s kontakty (contacts.csv) se ukládá do temp adresáře podle konfigurace java.io.tmpdir
